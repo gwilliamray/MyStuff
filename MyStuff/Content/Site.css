@@ -25,7 +25,8 @@ textarea {
 
 .jumbotron {
     /*background-color: aquamarine;*/
-    background-image: url('../Images/Stufflogo.png');
+    background-image: url('../Images/StuffLogo2.jpg');
+
     background-position:center;
     background-repeat:no-repeat;
 }
