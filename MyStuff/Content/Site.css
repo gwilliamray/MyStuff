@@ -30,3 +30,6 @@ textarea {
     background-position:center;
     background-repeat:no-repeat;
 }
+.quickLinks{
+    list-style-type: none;
+}
