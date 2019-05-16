@@ -7,6 +7,8 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using MyStuff.Models;
+using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.EntityFramework;
 
 namespace MyStuff.Controllers
 {
@@ -18,6 +20,7 @@ namespace MyStuff.Controllers
         // GET: Stuffs
         public ActionResult Index()
         {
+            
             return View(db.FunStuff.ToList());
         }
 
