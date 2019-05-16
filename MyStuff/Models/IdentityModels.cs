@@ -9,6 +9,8 @@ namespace MyStuff.Models
     // You can add profile data for the user by adding more properties to your ApplicationUser class, please visit https://go.microsoft.com/fwlink/?LinkID=317594 to learn more.
     public class ApplicationUser : IdentityUser
     {
+        //This is where we added the extra fields for the identity
+        //
         public string Address { get; set; }
         public bool Collector { get; set; }
         public int GradYear { get; set; }
